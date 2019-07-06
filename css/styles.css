@@ -1,0 +1,42 @@
+body{
+	background: #222;
+}
+
+section {
+	background: rgba(255,255,255,.6);
+	box-sizing: border-box;
+	float: left;
+	margin: 1%;
+	padding: 1em;
+}
+
+img{
+	max-width: 100%;
+}
+
+@media (min-width: 360px) {
+	body{
+		background: green;
+	}
+	section{
+		width: 48%;
+	}
+}
+
+@media (min-width: 768px) {
+	body{
+		background: red;
+	}
+	section{
+		width: 28%;
+	}
+}
+
+@media (min-width: 1200px) {
+	body{
+		background: blue;
+	}
+	section{
+		width: 23%;
+	}
+}
